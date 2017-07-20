@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>video player</title>
+    <link rel="stylesheet" href="https://at.alicdn.com/t/font_6ynxy86jexpnl8fr.css">
+    <link rel="stylesheet" href="./index.css">
+    <script src="./index.js"></script>
+</head>
+<body>
+<div class="index-wrapper">
+    <div class="main">
+        <video class="play-view" data-state="true">
+            <source src="./source/变形金刚.mp4" type="video/mp4">
+        </video>
+        <div class="control-wrapper hide">
+            <div class="title">
+                <p>AXE EFFECT</p>
+                <p>EVEN ANGELS WILL FALL</p>
+            </div>
+            <div class="control">
+                <div class="play-control">
+                    <i class="i icon-prev"></i><i class="i icon-pause"></i><i class="i icon-play hide"></i><i class="i icon-next"></i>
+                </div>
+                <div class="middle">
+                    <span class="progressTime">00:00</span>
+                    <div class="progress">
+                        <div class="progress-bar-wrapper">
+                            <div class="buffer-bar"></div>
+                            <div class="progress-bar">
+                                <span class="endOfBar"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="other-control">
+                    <i class="i icon-vol"><span class="vol-box hide"><span class="vol-wrapper"><span class="vol-bar"></span></span></span></i><i class="i icon-fullScreen"></i><i class="i icon-autoScreen hide"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script src="./jquery-3.1.0.min.js"></script>
+<script src="./index.js"></script>
+</html>
